@@ -1,0 +1,171 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Siva Car Flipping</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: #f7f7f7;
+    }
+    header {
+      background: white;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 10px 30px;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    }
+    header img {
+      height: 60px;
+    }
+    nav a {
+      margin-left: 20px;
+      text-decoration: none;
+      color: #333;
+      font-weight: bold;
+    }
+    .hero {
+      text-align: center;
+      padding: 60px 20px;
+      background: linear-gradient(to right, #00c6ff, #0072ff);
+      color: white;
+    }
+    .search-bar {
+      max-width: 500px;
+      margin: 20px auto;
+      display: flex;
+    }
+    .search-bar input {
+      flex: 1;
+      padding: 10px;
+      border: 1px solid #ccc;
+      border-right: none;
+    }
+    .search-bar button {
+      padding: 10px 15px;
+      background: #0072ff;
+      color: white;
+      border: none;
+      cursor: pointer;
+    }
+    .brand-filter {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 10px;
+      padding: 20px;
+    }
+    .brand-filter button {
+      padding: 8px 16px;
+      border: 1px solid #0072ff;
+      background: white;
+      cursor: pointer;
+      border-radius: 20px;
+    }
+    .car-listings {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+      gap: 20px;
+      padding: 20px;
+    }
+    .car-card {
+      background: white;
+      border-radius: 10px;
+      overflow: hidden;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    }
+    .car-card img {
+      width: 100%;
+      height: 180px;
+      object-fit: cover;
+    }
+    .car-info {
+      padding: 15px;
+    }
+    .car-info h4, .car-info p {
+      margin: 5px 0;
+    }
+    .car-info button {
+      background: #00c6ff;
+      color: white;
+      padding: 8px 12px;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      margin-top: 10px;
+    }
+    .about-contact {
+      background: #f0f0f0;
+      padding: 30px;
+      text-align: center;
+    }
+    footer {
+      background: #333;
+      color: white;
+      text-align: center;
+      padding: 15px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <img src="logo.png" alt="Siva Car Flipping Logo">
+    <nav>
+      <a href="#">Home</a>
+      <a href="#">View All Cars</a>
+      <a href="#">Parking Sale</a>
+      <a href="#">Contact</a>
+    </nav>
+  </header>
+
+  <div class="hero">
+    <h1>Welcome to Siva Car Flipping</h1>
+    <p>Buy and Sell Cars in Thiyagadurgam, Tamil Nadu</p>
+  </div>
+
+  <div class="search-bar">
+    <input type="text" placeholder="Search by brand or model...">
+    <button>Search</button>
+  </div>
+
+  <div class="brand-filter">
+    <button>Maruti</button>
+    <button>Hyundai</button>
+    <button>Honda</button>
+    <button>Tata</button>
+    <button>Kia</button>
+    <button>Renault</button>
+    <button>Volkswagen</button>
+    <button>More</button>
+  </div>
+
+  <div class="car-listings">
+    <div class="car-card">
+      <img src="https://via.placeholder.com/300x180" alt="Car Image">
+      <div class="car-info">
+        <h4>Hyundai i20</h4>
+        <p>Kilometers Driven: 45,000 km</p>
+        <p>Price: ₹5,20,000</p>
+        <button>I’m Interested</button>
+      </div>
+    </div>
+  </div>
+
+  <div class="about-contact">
+    <h2>About Us</h2>
+    <p>At Siva Car Flipping, we specialize in providing quality pre-owned cars at unbeatable prices. Based in Thiyagadurgam, Tamil Nadu, we make car buying and selling simple, transparent, and reliable.</p>
+    <h3>Contact</h3>
+    <p>📞 Phone/WhatsApp: 6381648043</p>
+    <p>📍 Address: Thiyagadurgam, Kallakurichi, Tamil Nadu</p>
+  </div>
+
+  <footer>
+    &copy; 2025 Siva Car Flipping. All rights reserved.
+  </footer>
+</body>
+</html>
